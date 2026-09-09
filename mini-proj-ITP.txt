@@ -1,0 +1,67 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main() {
+    int minutes[7] = {0};
+    int choice, day, total, highest;
+    char confirm;
+
+    do {
+        cout << "\n1. Log Minutes\n";
+        cout << "2. Weekly Report\n";
+        cout << "3. Reset\n";
+        cout << "4. Exit\n";
+        cin >> choice;
+
+        if (choice == 1) {
+            cout << "Enter day (1-7): ";
+            cin >> day;
+            cout << "Enter minutes: ";
+            cin >> minutes[day - 1];
+
+            ofstream file("music_log.txt");
+            for (int i = 0; i < 7; i++)
+                file << minutes[i] << " ";
+            file.close();
+        }
+
+        else if (choice == 2) {
+            ifstream file("music_log.txt");
+            total = 0;
+            highest = 0;
+
+            for (int i = 0; i < 7; i++) {
+                file >> minutes[i];
+                total += minutes[i];
+
+                if (minutes[i] > highest)
+                    highest = minutes[i];
+            }
+
+            file.close();
+
+            cout << "Total: " << total << " minutes\n";
+            cout << "Average: " << total / 7.0 << " minutes\n";
+            cout << "Highest: " << highest << " minutes\n";
+        }
+
+        else if (choice == 3) {
+            cout << "Reset data? (y/n): ";
+            cin >> confirm;
+
+            if (confirm == 'y') {
+                for (int i = 0; i < 7; i++)
+                    minutes[i] = 0;
+
+                ofstream file("music_log.txt");
+                file.close();
+
+                cout << "Data reset!\n";
+            }
+        }
+
+    } while (choice != 4);
+
+    return 0;
+}
