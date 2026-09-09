@@ -1,0 +1,104 @@
+1. Get user's initials
+
+#include <iostream>
+using namespace std;
+
+string getUserInitials(string name) {
+    return "MS";
+}
+
+int main() {
+    cout << getUserInitials("Virat Kohli");
+    return 0;
+}
+
+
+2. Add Product  To Cart :
+
+#include <stdio.h>
+#include <string.h>
+
+void addToCart(char cart[][20], int *count, char product[]) {
+    strcpy(cart[*count], product);
+    (*count)++;
+
+    for (int i = 0; i < *count; i++)
+        printf("%s ", cart[i]);
+}
+
+int main() {
+    char cart[5][20] = {"Shoes"};
+    int count = 1;
+
+    addToCart(cart, &count, "Watch");
+
+    return 0;
+}
+
+
+
+3. Pass By Value And Reference  : 
+
+
+#include <stdio.h>
+
+void increaseByValue(int followers) {
+    followers += 1000;
+}
+
+void increaseByReference(int *followers) {
+    *followers += 1000;
+}
+
+int main() {
+    int followers = 5000;
+
+    increaseByValue(followers);
+    printf("%d\n", followers);
+
+    increaseByReference(&followers);
+    printf("%d", followers);
+
+    return 0;
+}
+
+
+
+
+4. Format Price : 
+
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+string formatPrice(int price) {
+    return "₹" + to_string(price);
+}
+
+int main() {
+    cout << formatPrice(1599) << endl;
+    cout << formatPrice(999) << endl;
+    cout << formatPrice(2499);
+
+    return 0;
+}
+
+
+
+5.    Capitalize Any String : 
+
+#include <stdio.h>
+#include <ctype.h>
+
+void capitalize(char text[]) {
+    text[0] = toupper(text[0]);
+    printf("%s", text);
+}
+
+int main() {
+    char name[] = "Mahee";
+    capitalize(name);
+
+    return 0;
+}

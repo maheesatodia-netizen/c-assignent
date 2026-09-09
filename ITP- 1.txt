@@ -1,0 +1,43 @@
+1. What is a program?
+A program is a set of instructions that tells a computer what to do.
+For example, Instagram uses programs to let us post photos and watch reels.
+
+
+2. Programming languages:
+
+^ Java - Compiled
+
+^ Python  -  Interpreted
+
+^ JavaScript - Interpreted
+
+
+3. Movie ticket flowchart :
+
+               Start
+                 I 
+         Open BookMyShow
+                 I
+           Select movie
+                 I  
+       Select theatre & time
+                 I
+            Choose seats
+                 I
+           Make payment
+                 I
+        Booking confirmed
+                 I
+             Complete 
+
+
+4. Swiggy algorith:
+
+>Open Swiggy.
+> Select a restaurant.
+> Choose food.
+> Add to cart.
+> Enter address.
+> Make payment.
+> Confirm order.
+> Get confirmation.

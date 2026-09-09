@@ -1,0 +1,82 @@
+1. Write 3 songs to playlist. txt  :
+
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main() {
+    ofstream file("playlist.txt");
+
+    file << "Bargad\n";
+    file << "Bairan\n";
+    file << "Brown Rang\n";
+
+    file.close();
+
+    return 0;
+}
+
+
+2. Read and display songs :
+
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main() {
+    ifstream file("playlist.txt");
+    string song;
+
+    while (getline(file, song)) {
+        cout << song << endl;
+    }
+
+    file.close();
+
+    return 0;
+}
+
+
+3. Add 2 more songs :
+
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main() {
+    ofstream file("playlist.txt", ios::app);
+
+    file << "Nakhre tere\n";
+    file << "Rasputin\n";
+
+    file.close();
+
+    return 0;
+}
+
+
+4. Print only songs containing "love"  :
+
+#include <iostream>
+#include <fstream>
+#include <algorithm>
+using namespace std;
+
+int main() {
+    ifstream file("playlist.txt");
+    string song;
+
+    while (getline(file, song)) {
+        string text = song;
+
+        transform(text.begin(), text.end(), text.begin(), ::tolower);
+
+        if (text.find("love") != string::npos) {
+            cout << song << endl;
+        }
+    }
+
+    file.close();
+
+    return 0;
+}

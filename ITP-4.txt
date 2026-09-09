@@ -1,0 +1,45 @@
+1. Calculate total : 
+
+
+function calculateTotal(itemPrice, quantity) {
+  return itemPrice * quantity;
+}
+
+
+
+2. Discount calculator :
+
+function finalPrice(price, discount, isMember) {
+  let total = price - price * discount / 100;
+
+  if (isMember)
+    total = total - total * 5 / 100;
+
+  return total;
+}
+
+
+
+3. Check offer : 
+
+function isEligibleForOffer(age, orderValue) {
+  return age >= 18 && orderValue > 500;
+}
+
+
+4. Check trending :
+
+let trending = likes >= 1000 || comments > 200 && shares >= 50;
+
+console.log(trending);
+
+
+5. Pre & post increment : 
+
+let followerCount = 10;
+
+console.log(followerCount);
+console.log(++followerCount);
+
+console.log(followerCount);
+console.log(followerCount++);

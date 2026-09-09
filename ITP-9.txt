@@ -1,0 +1,74 @@
+1. Daily Steps  - 1D array :
+
+#include <stdio.h>
+
+int main() {
+    int dailySteps[7] = {5000, 6000, 4500, 7000, 8000, 5000, 6000};
+
+    for (int i = 0; i < 7; i++)
+        printf("%d\n", dailySteps[i]);
+
+    return 0;
+}
+
+
+2. Playlist Rating - 2D array :
+
+#include <stdio.h>
+
+int main() {
+    int playlistRatings[3][5] = {
+        {4, 5, 3, 4, 5},
+        {5, 4, 5, 5, 4},
+        {3, 4, 4, 5, 3}
+    };
+
+    for (int i = 0; i < 5; i++)
+        printf("%d ", playlistRatings[1][i]);
+
+    return 0;
+}
+
+
+3. Zomato Order -  1D array :
+
+#include <stdio.h>
+
+float average(int amounts[]) {
+    int sum = 0;
+
+    for (int i = 0; i < 7; i++)
+        sum += amounts[i];
+
+    return sum / 7.0;
+}
+
+int main() {
+    int amounts[7] = {200, 150, 300, 250, 180, 220, 270};
+
+    printf("Average = %.2f", average(amounts));
+
+    return 0;
+}
+
+
+4. Cricket Score - 2D array :
+
+#include <stdio.h>
+
+int main() {
+    int cricketScores[3][2] = {
+        {180, 175},
+        {200, 190},
+        {165, 170}
+    };
+
+    for (int i = 0; i < 3; i++) {
+        if (cricketScores[i][0] > cricketScores[i][1])
+            printf("%d\n", cricketScores[i][0]);
+        else
+            printf("%d\n", cricketScores[i][1]);
+    }
+
+    return 0;
+}

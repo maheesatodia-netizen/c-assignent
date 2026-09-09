@@ -1,0 +1,40 @@
+    ★--------------------------. ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁.--------------------------★
+
+                   ⋆✴︎˚｡⋆    SE - OVERVIEW OF IT INDUSTRY   ⋆✴︎˚｡⋆
+                                  ~ SESSION :- 5
+                                   ^ TASK :- 1
+
+    ★--------------------------. ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁.--------------------------★
+
+
+
+     ✦1. Write the Git command for each: initialize a repo, stage all files, commit with a message, 
+     
+
+➤ Initialize a repo   :- git init
+➤ Stage all files     :- git add
+➤ Commit with a message :- git commit -m "First commit"
+➤ Push to remote      :- git push
+➤ Pull latest changes :- git pull
+
+
+
+     ✦2. What is the difference between git fetch and git pull? Answer in 2 lines :
+     
+ ➤ In git fetch , the latest changes are done but it does not add the canges done.
+ ➤ While ? In git pull , the latest changes are added to them.
+
+
+
+    ✦3. Create a new GitHub repository, push any small text file from your local system, and share the repo link :
+
+
+
+    ✦4. What is the difference between a Fork and a Pull Request? Answer in 2 lines :
+
+➤ Fork - Makes a copy of a repository in your frespected account.
+➤ Pull request - Asks the owner of the account to add your changes.
+
+
+
+    ✦5. Create a new branch named feature-test, make one commit on it, and merge it back to the main branch. Write the commands you used :

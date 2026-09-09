@@ -1,0 +1,71 @@
+1. Find String Length :
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char songTitle[] = "Tum Hi Ho";
+
+    printf("%d", strlen(songTitle));
+
+    return 0;
+}
+
+
+2. Compare Two Usernames :
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char user1[20], user2[20];
+
+    scanf("%s", user1);
+    scanf("%s", user2);
+
+    if (strcmp(user1, user2) == 0)
+        printf("Same");
+    else
+        printf("Different");
+
+    return 0;
+}
+
+
+3. Copy String :
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char shoppingApp[20];
+
+    strcpy(shoppingApp, "Flipkart");
+
+    printf("%s", shoppingApp);
+
+    return 0;
+}
+
+
+4. Create Username :
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char name[50], username[6];
+
+    scanf("%s", name);
+
+    if (strlen(name) <= 5)
+        strcpy(username, name);
+    else {
+        strncpy(username, name, 5);
+        username[5] = '\0';
+    }
+
+    printf("%s", username);
+
+    return 0;
+}

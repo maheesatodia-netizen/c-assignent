@@ -1,0 +1,51 @@
+1. Fix the buggy Zomato code :
+
+let items = ["Burger", "Pizza", "Fries"];
+let prices = [120, 250, 90];
+let total = 0;
+
+for (let i = 0; i < items.length; i++) {
+    total += prices[i];
+}
+
+console.log("Total price is: " + total);
+
+
+2. Improve indentation and add comments :
+
+function isEven(num) {
+    if (num % 2 == 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+
+3. Format followers count :
+
+function formatFollowersCount(count) {
+    if (count >= 1000 && count < 1000000) {
+        return (count / 1000).toFixed(1) + "K";
+    }
+
+    if (count >= 1000000) {
+        return (count / 1000000).toFixed(1) + "M";
+    }
+
+    return count.toString();
+}
+
+console.log(formatFollowersCount(1500));
+console.log(formatFollowersCount(1200000));
+console.log(formatFollowersCount(500));
+
+
+
+4. Fix even numbers code :
+
+for (let i = 1; i <= 10; i++) {
+    if (i % 2 == 0) {
+        console.log(i);
+    }
+}

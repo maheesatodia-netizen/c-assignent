@@ -1,0 +1,58 @@
+   ★--------------------------. ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁.--------------------------★
+
+                   ⋆✴︎˚｡⋆    SE - OVERVIEW OF IT INDUSTRY   ⋆✴︎˚｡⋆
+                                  ~ SESSION :- 4
+                                   ^ TASK :- 1
+
+    ★--------------------------. ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁.--------------------------★
+
+
+
+
+
+     ✦1. List all 6 phases of SDLC in order with one line about each :
+
+➤ Requirement – Find out what the users need from the software.
+➤ Design – Plan how the software will look and work.
+➤ Development – Write the code and create the software.
+➤ Testing – Check the software for errors and problems.
+➤ Deployment – Release the software for users to use.
+➤ Maintenance – Fix problems and make updates when needed.
+
+
+
+
+    ✦2. Write 3 differences between Agile and Waterfall models :
+
+★ Agile:
+➝ Work is done in small steps.
+➝ Does easily allow changes during development.
+➝ Testing is done regularly.
+
+★ Waterfall:
+➝ Work is done step by step.
+➝ Waterfall does not easily allow changes during development.
+➝ Testing mostly done after development.
+
+
+
+    ✦3. Name the 3 main Scrum roles and write one line about the responsibility of each :
+
+◉ Product Owner - Decides the feature are needed and manage the product Requirement
+◉ Scrum Master - Helps the team to work properly and solves the problems
+◉ Developer - Creates and tests the software.
+
+
+
+     ✦4. What is a Sprint in Scrum? Mention its typical duration :
+➡ A Sprint is a short period of time where the scrm team works on the tasks given to them.
+➡ It usually lasts for 1 or 4 weeks.
+
+
+
+     ✦5. What do these Jira board columns mean: To Do, In Progress, Done, Backlog ? :
+
+➢ Backlog - Tasks that are planned but not started yet.
+➢ To Do - Tasks that are ready to be worked on. 
+➢ In progress - Task but cureently being worked on.
+➢ Done - Tasks that have been completed.

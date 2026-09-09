@@ -1,0 +1,91 @@
+1. Likes and pointer :
+
+#include <stdio.h>
+
+int main() {
+    int likes = 500;
+    int *ptrLikes = &likes;
+
+    printf("Likes = %d\n", likes);
+    printf("Address = %p\n", (void*)ptrLikes);
+
+    return 0;
+}
+
+
+2. Swap playlist counts using pointers :
+
+#include <stdio.h>
+
+void swapPlaylistCounts(int *a, int *b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+int main() {
+    int playlist1 = 20;
+    int playlist2 = 35;
+
+    swapPlaylistCounts(&playlist1, &playlist2);
+
+    printf("Playlist 1 = %d\n", playlist1);
+    printf("Playlist 2 = %d\n", playlist2);
+
+    return 0;
+}
+
+
+3. Order amounts using pointer arithmetic :
+#include <stdio.h>
+
+int main() {
+    int orders[5] = {250, 400, 150, 600, 300};
+    int *ptr = orders;
+
+    for (int i = 0; i < 5; i++) {
+        printf("Amount = %d, Address = %p\n",
+               *(ptr + i), (void*)(ptr + i));
+    }
+
+    return 0;
+}
+
+
+4. Increase followers using pointer arithmetic :
+
+#include <stdio.h>
+
+void incrementFollowers(int *followers, int n) {
+    for (int i = 0; i < n; i++) {
+        *(followers + i) += 100;
+    }
+}
+
+int main() {
+    int followers[5] = {500, 800, 1200, 600, 900};
+
+    incrementFollowers(followers, 5);
+
+    for (int i = 0; i < 5; i++) {
+        printf("%d\n", followers[i]);
+    }
+
+    return 0;
+}
+
+
+5. Simple memory diagram :
+
+┌──────────────┐
+│    likes     │
+│    500       │
+│  Address:1000│
+└──────────────┘
+       ▲
+       │
+       │
+┌──────────────┐
+│  ptrLikes    │
+│   1000       │
+└──────────────┘

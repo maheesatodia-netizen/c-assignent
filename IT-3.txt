@@ -1,0 +1,49 @@
+★--------------------------. ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁.--------------------------★
+
+                   ⋆✴︎˚｡⋆    SE - OVERVIEW OF IT INDUSTRY   ⋆✴︎˚｡⋆
+                                  ~ SESSION :- 3
+                                   ^ TASK :- 1
+
+    ★--------------------------. ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁.--------------------------★
+
+
+
+  ✦1. Write the full form and one-line use of: HTTP, HTTPS, FTP, SMTP :
+
+➤ HTTP - hyper text transfer protocol - used For  transforming information between a websit.
+➤ HTTPS - hypertext transfer protocol secure - used for safely transforming information Between a website and the browser.
+➤ FTP - file transfer protocol - used For  send and receive files between computers.
+➤ SMTP - Simple mail transfer protocol - used for sending emails from from to server to another.
+
+
+
+  ✦2. What is the difference between IPv4 and IPv6? Answer in 2 lines :
+
+➤ IPv4 uses short, number-only addresses and is running out of unique space for new devices.
+➤ IPv6 uses long, combination addresses with numbers and letters so billions of new devices can connect to the internet.
+
+
+
+  ✦3. Run nslookup google.com on your system and write down the IP address you get :
+➤IP. Address -  142.251.106.102
+
+
+  ✦4. What do these HTTP status codes mean: 200, 301, 404, 500, 403 ?  :
+
+➤ 200 – The request was successful.
+➤ 301 – The page has been moved to another address.
+➤ 404 – The page could not be found.
+➤ 500 – There is a problem on the server.
+➤ 403 – You do not have permission to access the page.
+
+
+
+  ✦5. Explain DNS hierarchy (root, TLD, domain, subdomain) with www.google.com as an example :
+
+➤ Root: The top level of the DNS hierarchy.
+
+➤ TLD: The top-level domain.
+
+➤ Domain: The main registered domain name.
+
+➤ Subdomain: A hostname under google.com.

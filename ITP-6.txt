@@ -1,0 +1,81 @@
+1. Countdown Using For :
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    for (int i = 10; i >= 1; i--)
+        cout << i << " ";
+
+    return 0;
+}
+
+
+
+2. IPL team menu using While loop : 
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int choice;
+    string teams[4] = {"MI", "CSK", "RCB"};
+
+    while (true) {
+        cout << "\n1. View Teams\n2. Add Team\n3. Exit\n";
+        cin >> choice;
+
+        if (choice == 1)
+            cout << teams[0] << " " << teams[1] << " " << teams[2];
+        else if (choice == 2) {
+            cin >> teams[3];
+            cout << "Team added!";
+        }
+        else
+            break;
+    }
+
+    return 0;
+}
+
+
+
+3. Guess the song using Do- while loop. 
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    string songs[3] = {"Perfect", "Believer", "ShapeOfYou"};
+    string guess;
+
+    do {
+        cout << "Guess the song: ";
+        cin >> guess;
+    } while (guess != songs[0]);
+
+    cout << "Correct!";
+
+    return 0;
+}
+
+
+4. Entry Control Loops  VS   Exit Control Loops :
+
+EntryCL : -
+
+int i = 5;
+
+while (i < 5) {
+    cout << i;
+}
+
+
+ExitCL : -
+
+
+int i = 5;
+
+do {
+    cout << i;
+} while (i < 5);

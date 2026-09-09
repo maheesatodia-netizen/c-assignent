@@ -1,0 +1,20 @@
+1.
+
+
+2. Create a C programCreate a file named hello.c and write :
+
+#include <stdio.h>
+int main() {
+    printf("Hello, Instagram World!");
+    return 0;
+}
+
+
+3. Label the parts:
+
+Header - #include <stdio.h>
+Main - int main()
+Return - return 0;
+
+
+

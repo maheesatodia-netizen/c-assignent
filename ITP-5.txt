@@ -1,0 +1,85 @@
+1. IPL fan bot :
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    string team;
+    cin >> team;
+
+    if (team == "GT")
+        cout << "Go Gujarat Titains!";
+    else if (team == "CSK")
+        cout << "CSK for the win!";
+    else if (team == "MI")
+        cout << "Go Mumbai Indians!";
+    else
+        cout << "Team not found!";
+
+    return 0;
+}
+
+
+
+2. Food Suggestions :
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    string meal;
+    cin >> meal;
+
+    switch (meal[0]) {
+        case 'b': cout << "Try some Paratha!"; break;
+        case 'l': cout << "Try some Biryani!"; break;
+        case 'd': cout << "Try some Pizza!"; break;
+        case 's': cout << "Try some Samosa!"; break;
+        default: cout << "Try some fruits!";
+    }
+
+    return 0;
+}
+
+
+
+3. Flipcart Discount :
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    float amount;
+    cin >> amount;
+
+    if (amount > 2000)
+        amount = amount - amount * 20 / 100;
+    else if (amount > 1000)
+        amount = amount - amount * 10 / 100;
+
+    cout << amount;
+
+    return 0;
+}
+
+
+4. Age Eligibility :
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age;
+    cin >> age;
+
+    if (age >= 18)
+        cout << "Eligible for Driving License\n";
+
+    if (age >= 21)
+        cout << "Eligible for Credit Card\n";
+
+    if (age >= 25)
+        cout << "Eligible for Car Rental";
+
+    return 0;
+}

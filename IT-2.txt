@@ -1,0 +1,54 @@
+★--------------------------. ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁.--------------------------★
+
+                   ⋆✴︎˚｡⋆    SE - OVERVIEW OF IT INDUSTRY   ⋆✴︎˚｡⋆
+                                  ~ SESSION :- 2
+                                   ^ TASK :- 1
+
+    ★--------------------------. ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁.--------------------------★
+
+    
+   ✦ 1. What are the three main layers of software architecture?
+➤ UI(User Interface) :
+⋆ A part of software that we can see and use {buttons, menu, touch screens, etc.}
+
+➤Business Logic:
+⋆ A controls how the software works and wht happens when we do something.
+
+➤Database: 
+⋆ IT stores all the importent information used by the software.
+
+
+
+  ✦2. Define client and server in your own words with one real-life example :
+
+➤ A client is the device or an app , such as a web browser or phone, that asks for information.
+➤On the otherhand? A server is a powerful computer that stores all the data and sends it back to the client.When its asked.
+
+⤷ REAL - LIFE - EXAMPLE :
+› Think as if ordering food from the restaurant. You are the client because you asked for the food, and the restaurant is the server because? it makes the food and then delivers it to you.
+
+
+
+  ✦3. Write 2 differences each between desktop apps, web apps, and mobile apps :
+
+➤ Desktop Apps:
+
+> They are installed on a computer or a laptop.
+> They can walk without the internet in a many cases.
+
+➤ Web Apps:
+
+> On the other end , web app , they are used through a web browser.
+> They usually need  internet connection to be installed.
+
+➤ MobileApps:
+> While? mobile app , they are made for phones and tablets.
+> They uses phone features like Camera , Maps and Notifications, etc.
+
+
+
+  ✦4. Name any 3 databases and mention whether each is SQL or NoSQL :
+
+➝MySQL – SQL database.
+➝PostgreSQL – SQL database.
+➝MongoDB – NoSQL database.

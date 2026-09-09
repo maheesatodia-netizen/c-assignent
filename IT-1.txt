@@ -1,0 +1,96 @@
+★--------------------------. ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁.--------------------------★
+
+                   ⋆✴︎˚｡⋆    SE - OVERVIEW OF IT INDUSTRY   ⋆✴︎˚｡⋆
+                                  ~ SESSION :- 1
+                                   ^ TASK :- 1
+
+    ★--------------------------. ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁.--------------------------★
+
+    
+
+✦ 1. Five IT Job Roles:-
+
+➤ Software Developer:- Writes code and creates applications and softrware.
+➤ Tester            :- Checks the software and find bugs and make sure everything is working properly or not.
+➤ Designer          :- Develops websites , apps , video games , etc. which are easy to use.
+➤ Data Analyst      :- They study the given data and use it to collects / finds usefull informations which can help make better decisions. 
+➤ AI Engineer       :- They work on a system that uses AI and machine learning.
+
+
+
+                                                 ── ⋆⋅☆⋅⋆ ──── ⋆⋅☆⋅⋆ ──── ⋆⋅☆⋅⋆ ──── ⋆⋅☆⋅⋆ ──
+
+
+
+✦ 2. Product Companies  &   Service Companies:- 
+
+                              ಄ Product Companies:
+
+➤ GOOGLE.
+╰┈➤ Created Android , the software which brings billions of people to stay connected to th webs.
+
+➤ MICROSOFT.
+╰┈➤ They created Microsoft 365 for students / office workers so they can make presentations (Word, Excel, PPT,etc)
+
+➤ APPLE.
+╰┈➤Iphone.
+
+                               ಄ Service Companies:-
+
+➤ NETFLIX.
+╰┈➤ They sell entertainment which are on demand by buying a month of subscription.
+
+➤ UBER.
+╰┈➤ Personal drives to drive you to your requested locations and can even rant car or transport parcles to your required place.
+
+➤ZOMATO.
+╰┈➤ Instant food delivery at your requested location, their delivery partners pick up your food delivery and drive through the traffic / rain and bring your hot meals to your doorstep.
+
+
+
+                                                     ── ⋆⋅☆⋅⋆ ──── ⋆⋅☆⋅⋆ ──── ⋆⋅☆⋅⋆ ──── ⋆⋅☆⋅⋆ ──
+
+
+✦ 3. FullForms & Its Uses.
+
+➜ Github :- A website for developers where they can share their work and work together, where they can track changes to their own code alongside the code of their coworkers.
+➜ Slack  :- An application where a team can chat and to share their work.
+➜ Jira   :- A tool used by team to manage and track their tasks along side the task bugs.
+➜ IDE [Integrated Development Environment] :- An all in one software application that gives programers a workspace where they can write, edit and debug their code.
+➜ API [Application Programming Interface]  :- A software messenger that allows two different applications to talk to achothers.
+
+
+
+                                                     ── ⋆⋅☆⋅⋆ ──── ⋆⋅☆⋅⋆ ──── ⋆⋅☆⋅⋆ ──── ⋆⋅☆⋅⋆ ──
+
+
+✦4. Five Programming Languages & Their Popular Examples.
+
+▪ Python :
+・EG.:- Used for AI and Data Science for making it a top use for machine learning models and analyzing big data sets.
+
+▪ JavaScript :
+・EG.:- An programing language that makes website do things as in it makes buttons, menus and pop-up button work when you touch the screen.
+
+▪ C++ :
+・EG.:- Used for making game graphics and high-end programing.
+
+▪ SQL:
+・ EG.:- It is used for searching for an specific information from a massive database.
+
+▪ Java :
+・ EG.:- Java is mostly used for developing android apps and large scale softwares.
+
+
+                                                        ── ⋆⋅☆⋅⋆ ──── ⋆⋅☆⋅⋆ ──── ⋆⋅☆⋅⋆ ──── ⋆⋅☆⋅⋆ ──
+
+
+✦5. Diff. Between A Developer &  A Tester:
+ 
+                      >>  Developer :- <<
+
+✮⋆˙ A developer write codes and create applications features.
+
+
+                      >>   Tester   :- <<
+✮⋆˙ Where as? A tester checks the software to find any kind of mistakes or bugs and makes sure it works properly.

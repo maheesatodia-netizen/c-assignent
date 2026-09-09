@@ -1,0 +1,110 @@
+1. Playlist structure :
+
+#include <iostream>
+using namespace std;
+
+struct Playlist {
+    string title;
+    string artist;
+    int duration;
+};
+
+int main() {
+    Playlist song = {"Tum Hi Ho", "Arijit Singh", 262};
+
+    cout << "Title: " << song.title << endl;
+    cout << "Artist: " << song.artist << endl;
+    cout << "Duration: " << song.duration << " seconds";
+
+    return 0;
+}
+
+
+
+2. Foodltem array :
+
+#include <iostream>
+using namespace std;
+
+struct FoodItem {
+    string itemName;
+    float price;
+    float rating;
+};
+
+int main() {
+    FoodItem food[3] = {
+        {"Pizza", 299, 4.5},
+        {"Burger", 199, 4.2},
+        {"Biryani", 250, 4.6}
+    };
+
+    for (int i = 0; i < 3; i++) {
+        cout << food[i].itemName << " "
+             << food[i].price << " "
+             << food[i].rating << endl;
+    }
+
+    return 0;
+}
+
+
+
+3. Nested MovieShow structure :
+
+
+#include <iostream>
+using namespace std;
+
+struct MovieShow {
+    string Movie;
+    int Screen;
+
+    struct Time {
+        int hours;
+        int minutes;
+    } time;
+};
+
+int main() {
+    MovieShow show = {"Avengers", 3, {7, 30}};
+
+    cout << "Movie: " << show.Movie;
+    cout << ", Screen: " << show.Screen;
+    cout << ", Time: " << show.time.hours << ":"
+         << show.time.minutes;
+
+    return 0;
+}
+
+
+
+4. Nested InstaProfile structure  :
+
+#include <iostream>
+using namespace std;
+
+struct InstaProfile {
+    string username;
+    int followers;
+
+    struct Bio {
+        string description;
+        int age;
+    } bio;
+};
+
+int main() {
+    InstaProfile profile = {
+        "mahee",
+        1000,
+        {"Student and content creator", 17}
+    };
+
+    cout << "Username: " << profile.username << endl;
+    cout << "Followers: " << profile.followers << endl;
+    cout << "Bio: " << profile.bio.description << endl;
+    cout << "Age: " << profile.bio.age;
+
+    return 0;
+}
